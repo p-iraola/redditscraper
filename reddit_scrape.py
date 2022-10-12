@@ -2,9 +2,7 @@ import praw
 from collections import Counter
 import re
 
-reddit_read_only = praw.Reddit(client_id ='',
-							   client_secret ='', 
-							   user_agent ='')
+reddit_read_only = praw.Reddit(client_id ='', client_secret ='', user_agent ='')
 
 
 url = ''
